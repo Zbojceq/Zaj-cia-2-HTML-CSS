@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 30px;    
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #000000;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: normal; 
+        }
+        button
+        {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <h1>  pieknie</h1>
+
+    <h1>Testing my frist web page yippe!!</h1>
+    <p>(for real its not my first but who cares)</p>
+
+    <h2>LYNX!!</h2>
+    <img src="Amazing_lynx.jpg" alt="" width="474" height="316">
+    <a href="Amazing_lynx.jpg"><img src="Amazing_lynx.jpg" alt="Lynx image again?? No way" width="237" height="158"></a>
+
+    <a href="mailto:zbojceq@gmail.com">send lynxes there</a>
+
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time, very relate to lynxes!</button>
+
+    <p id="demo">
+        
+    </p>
+
+
+
 </body>
 </html>
